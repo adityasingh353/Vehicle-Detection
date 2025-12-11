@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-11T19:39:34.567969Z",
+  "cameras": {
+    "camera_1": {
+      "vehicle_count_published": 1,
+      "vehicle_count_median_raw": 0,
+      "vehicle_count_raw_latest": 0,
+      "max_vehicle_count_20s": 3,
+      "total_unique_vehicles_past_20s": 7,
+      "status": "Smooth",
+      "window_seconds": 3.0
+    },
+    "camera_2": {
+      "vehicle_count_published": 1,
+      "vehicle_count_median_raw": 0,
+      "vehicle_count_raw_latest": 0,
+      "max_vehicle_count_20s": 3,
+      "total_unique_vehicles_past_20s": 7,
+      "status": "Smooth",
+      "window_seconds": 3.0
+    }
+  }
+}
