@@ -12,10 +12,11 @@ import os
 MODEL_PATH = r"C:\Users\ADITYA SINGH\OneDrive\Documents\Project\model\model_best.pt"
 # Put two camera base URLs here (change to your actual IPs/ports)
 IPCAM_BASES = [
-    # "http://10.84.242.43:8080",   # camera 1
-    # "http://10.84.242.34:8080",   # camera 2 (example)
-    r"C:\Users\ADITYA SINGH\OneDrive\Documents\Project\4K Road traffic video for object detection and tracking - free download now!.mp4",
-     r"C:\Users\ADITYA SINGH\OneDrive\Documents\Project\4K Road traffic video for object detection and tracking - free download now!.mp4"
+    "http://10.84.242.43:8080",   # camera 1
+    "http://10.84.242.34:8080",   # camera 2 (example)
+    #or use video links present on you desktop
+    # r"C:\Users\ADITYA SINGH\OneDrive\Documents\Project\4K Road traffic video for object detection and tracking ",
+    #  r"C:\Users\ADITYA SINGH\OneDrive\Documents\Project\Road traffic video for object detection"
 ]
 OUTPUT_JSON_PATH = "traffic_data.json"    # real-time json output
 JSON_UPDATE_INTERVAL = 3.0                # seconds between JSON updates (published smoothed)
